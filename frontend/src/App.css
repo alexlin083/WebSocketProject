@@ -1,0 +1,84 @@
+body {
+  background-color: #fb3535;
+  /* background: url(./assets/sea.jpg); */
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.responseText {
+  border: 1px solid black;
+  width: 300px;
+  height: 400px;
+}
+.main {
+  /* height: 100vh; */
+  width: 100vw;
+  /* background-color: #bae7ff; */
+}
+.title {
+  text-align: center;
+  width: 100%;
+  padding: 2%;
+  background-color: #201068;
+
+  position: fixed;
+}
+.bottom {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+.chatBox {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+.card {
+  width: 300px;
+  margin: 16px 4px 0 4px;
+  word-break: break-all; /*多行文字折行*/
+}
+.ant-card-meta-title {
+  font-size: x-large;
+}
+.meta {
+  color: #f56a00;
+  background-color: #fde3cf;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
